@@ -1,3 +1,3 @@
-theme: jekyll-theme-cayman
-title: Format IPS
-description: Tulis saja!
+name: Linear
+description: Linear template for Jekyll
+paginate: 10
