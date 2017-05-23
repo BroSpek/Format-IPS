@@ -1,3 +1,8 @@
 theme: jekyll-theme-cayman
 title: Format IPS
+<<<<<<< HEAD
 description: Memudahkan anda menulis tesis/disertasi
+=======
+description: Memudahkan anda menulis tesis/disertasi
+show_downloads: false
+>>>>>>> b4b627a4e0e7ddfbbd7a9fa337d1e263114ecc3e
