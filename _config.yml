@@ -1,6 +1,6 @@
 # Site settings
-title:
-email:
+title: Format IPS
+email: halimstt@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Khas untuk pelajar-pelajar pengajian Master dan PhD di UPSI (Universiti Pendidikan Sultan Idris). 
   Kini anda tidak perlu bersusah payah dan membuang masa membetulkan format tesis/disertasi. 
@@ -22,10 +22,13 @@ github:
 #  - line: 35900 Tanjong Malim
 
 telephone: 011-1544 2546
-copyright: Format IPS
+copyright: Abd Halim
 
 # API settings
 google_api_key:
 
 # Build settings
 markdown: kramdown
+
+# exclude files
+exclude: ['LICENSE']
