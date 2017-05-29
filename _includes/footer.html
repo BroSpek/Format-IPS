@@ -1,36 +1,16 @@
-<footer>
-  <div id="footer" class="container">
-    <div class="row">
-      <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h4><strong>{{ site.owner }}</strong>
-        </h4>
-		{% if site.address %}
-        <p>
-          {% for address in site.address %}
-          {{ address.line }}<br>
-          {% endfor %}
-        </p>
-		{% endif %}
-		<p>
-		  <i class="fa fa-whatsapp fa-fw" aria-hidden="true"></i> {{ site.telephone }} // <i class="fa fa-envelope-o fa-fw" aria-hidden="true"></i>  <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-		<br>
-        <ul class="list-inline">
-          {% if site.facebook_username %}
-		  <li>
-            <a href="https://facebook.com/{{ site.facebook_username }}"><i class="fa fa-facebook fa-fw fa-3x" aria-hidden="true"></i></a>
-          </li>{% endif %}
-		  {% if site.twitter_username %}
-          <li>
-            <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fa fa-twitter fa-fw fa-3x" aria-hidden="true"></i></a>
-          </li>{% endif %}
-          <li>
-            <a href="https://github.com/{{ site.github.username }}/{{ site.github.project }}"><i class="fa fa-github fa-fw fa-3x" aria-hidden="true"></i></a>
-          </li>
-        </ul>
-        <hr class="small">
-        <p class="text-muted">Hakcipta &copy; {{ site.copyright }} 20{{ site.time | date: '%y' }}</p>
-      </div>
-    </div>
-  </div>
-</footer>
+	<footer>
+        <div class="container">
+            <p>Hakcipta &copy; {{ site.owner }} 20{{ site.time | date: '%y' }}</p>
+            <!--<ul class="list-inline">
+                <li>
+                    <a href="#">Privacy</a>
+                </li>
+                <li>
+                    <a href="#">Terms</a>
+                </li>
+                <li>
+                    <a href="#">FAQ</a>
+                </li>
+            </ul>-->
+        </div>
+    </footer>

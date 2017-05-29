@@ -10,19 +10,14 @@ url: "" # the base hostname & protocol for your site
 
 # User setting
 owner: Abd Halim
+author: Abd Halim
 email: halimstt@gmail.com
 facebook_username:
 twitter_username:
 github:
   username: BroSpek
   project: format-ips
-#address:
-#  - line: 22 Jalan U1/1
-#  - line: Taman Universiti
-#  - line: 35900 Tanjong Malim
-
 telephone: 011-1544 2546
-copyright: Abd Halim
 
 # API settings
 google_api_key:
@@ -31,4 +26,4 @@ google_api_key:
 markdown: kramdown
 
 # exclude files
-exclude: ['LICENSE']
+exclude: ['less','LICENSE','README.md','gulpfile.js','package.json']

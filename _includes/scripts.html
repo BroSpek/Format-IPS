@@ -1,8 +1,20 @@
-<!-- jQuery -->
-<script src="js/jquery.js"></script>
+	<!-- jQuery -->
+    <script src="lib/jquery/jquery.min.js"></script>
 
-<!-- Bootstrap Core JavaScript -->
-<script src="js/bootstrap.min.js"></script>
+    <!-- Bootstrap Core -->
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
 
-<!-- Custom Theme JavaScript -->
-<script src="js/custom.js"></script> 
+    <!-- Plugin -->
+    <script src="lib/jquery/easing/jquery.easing.min.js"></script>
+
+    <!-- Theme -->
+    <script src="lib/theme/js/new-age.min.js"></script>
+	
+	<!-- ekko-lightbox -->
+	<script src="lib/ekko-lightbox/ekko-lightbox.min.js"></script>
+	<script>
+	$(document).on('click', '[data-toggle="lightbox"]', function(event) {
+		event.preventDefault();
+		$(this).ekkoLightbox();
+	});
+	</script>
