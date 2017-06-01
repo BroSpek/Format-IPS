@@ -19,6 +19,9 @@ github:
   project: format-ips
 telephone: 011-1544 2546
 
+# Google Analytics
+tracking_id: UA-100342495-1
+
 # Build settings
 markdown: kramdown
 
