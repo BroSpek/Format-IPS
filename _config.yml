@@ -5,8 +5,8 @@ description: > # this means to ignore newlines until "baseurl:"
   Khas untuk pelajar-pelajar pengajian Master dan PhD di UPSI (Universiti Pendidikan Sultan Idris). 
   Kini anda tidak perlu bersusah payah dan membuang masa membetulkan format tesis/disertasi. 
   Format IPS adalah acuan tesis/disertasi yang akan membantu anda!
-baseurl: "/" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
+host: "" # the base hostname & protocol for your site
+base: "" # the subpath of your site, e.g. /blog/
 
 # User setting
 owner: Abd Halim
