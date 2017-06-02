@@ -1,0 +1,26 @@
+*** AUTOMATIK ***
+
+Kewujudan fail di dalam folder ini akan menentukan keberkesanan butang "Automatik".
+Nama fail adalah TIDAK sensitif aksara.
+Jadual fail yang dijangkakan beserta status:
+
+| STATUS  |        NAMA FAIL        |
++---------+-------------------------+
+| pilihan | Muka Depan.docx         |
+| pilihan | Judul.docx              |
+| pilihan | Penghargaan.docx        |
+| pilihan | Perakuan.docx           |
+| pilihan | Pengesahan.docx         |
+| pilihan | Abstrak.docx            |
+| pilihan | Kandungan.docx          |
+| pilihan | Senarai Jadual.docx     |
+| pilihan | Senarai Rajah.docx      |
+| pilihan | Senarai Singkatan.docx  |
+| pilihan | Senarai Lampiran.docx   |
+| wajib   | Bab 1.docx              |
+| wajib   | Bab 2.docx              |
+| wajib   | Bab 3.docx              |
+| wajib   | Bab 4.docx              |
+| pilihan | Bab 5.docx              |
+| pilihan | Rujukan.docx            |
+| pilihan | Lampiran.docx           |
